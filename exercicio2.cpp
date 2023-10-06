@@ -16,7 +16,7 @@ int main() {
     c = 4 * a + b / 3 - 5;
 
     // Letra d - Imprima o resultado da primeira expressão
-    cout << "Resultado da primeira expressão: " << c << endl;
+    cout << "Resultado da primeira expressao: " << c << endl;
 
     // Letra e - Atribua o valor da segunda expressão a c
     c = 4 * (a + b) / (3 - 5);
@@ -37,13 +37,13 @@ int main() {
     int c_variante = 4 * a + (b / (3 - 5));
 
     // Imprima o resultado da segunda expressão
-    cout << "Resultado da segunda expressão: " << c << endl;
+    cout << "Resultado da segunda expressao: " << c << endl;
 
     // Letra g - Recalcule o valor de c usando a expressão a^2 + 2 * b + c
     c = a * a + 2 * b + c;
 
     // Imprima o resultado do recálculo
-    cout << "Resultado do recálculo: " << c << endl;
+    cout << "Resultado do recalculo: " << c << endl;
 
     return 0;
 }
