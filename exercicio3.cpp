@@ -22,6 +22,15 @@ int main(void){
 
     cout << "Caractere como caractere: " << (isprint(ch3) ? ch3 : '_') << endl;
 
+    ch3 = (ch1 >= 'A' && ch1 <= 'Z') ? 'A' : ' ';
+    cout << "Valor de ch3 (condicional para ch1): " << ch3 << endl;
+
+    ch3 = (ch2 >= 'a' && ch2 <= 'z') ? 'a' : ' ';
+    cout << "Valor de ch3 (condicional para ch2): " << ch3 << endl;
+
+    ch3 = (isdigit(ch1) || isdigit(ch2)) ? '1' : ' ';
+    cout << "Valor de ch3 (condicional para dígitos): " << ch3 << endl;
+
     return 0;
 }
 
